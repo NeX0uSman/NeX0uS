@@ -1,0 +1,406 @@
+* {
+    font-family: Montserrat;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    border-radius: 7px;
+}*/
+
+#main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: white;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    background-color: white;
+    height: auto;
+    align-items: flex-start;
+}
+
+.under-phone {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.under-phone img {
+    width: 34px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 60%;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+
+.middle-part {
+    /*background-color: #f3f4f6;i am not sure if i want this one*/
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    /*background-color:gray or sm shit*/
+}
+
+.middle-part img {
+    image-rendering: -webkit-optimize-contrast;
+    /* для некоторых браузеров */
+    image-rendering: crisp-edges;
+    /* улучшает четкость */
+    image-rendering: high-quality;
+    /* экспериментальное, если поддерживается */
+    width: 60%;
+    height: auto;
+    object-fit: contain;
+    /* или cover, если нужно обрезать */
+}
+
+
+
+.row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-top-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+}
+
+.column-top-button button {
+    width: 255px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    margin-right: 12px;
+    cursor:pointer;
+    transition: 0.2s all ease;
+}
+.column-top-button button:hover {
+    transform: scale(1.1);
+    background-color: #0071e3;
+    color:white;
+}
+
+.text p {
+    font-size: larger;
+    padding: 0px 0px 0px 15px;
+    max-width: 900px;
+    /* ограничение ширины */
+}
+
+#header a {
+    color: white;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+    display: inline-block;
+    /*ochen vazhno kstati!*/
+}
+
+#header a::after {
+    content: " →";
+    transition: color 0.2s ease-in-out;
+}
+
+#header a:hover::after {
+    color: black;
+}
+
+#header a:hover {
+    transform: scale(1.2);
+}
+
+.left-part img {
+    image-rendering: -webkit-optimize-contrast;
+    /* для некоторых браузеров */
+    image-rendering: crisp-edges;
+    /* улучшает четкость */
+    image-rendering: high-quality;
+    /* экспериментальное, если поддерживается */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* или cover, если нужно обрезать */
+}
+
+
+.model-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.model-list button {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 100px;
+    height: 50px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    border:2px solid black
+}
+
+.model-list button:hover {
+    transform: scale(1.07);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.memory-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.memory-list button {
+    color: white;
+    background-color: black;
+    border:2px solid black;
+    border-radius: 12px;
+    width: 75px;
+    height: 45px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.memory-list button:hover {
+    transform: scale(1.07);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.color-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.color-1C1C1E button {
+    background-color: #1C1C1E;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 75px;
+    height: 45px;
+    transition: transform 0.3s;
+}
+
+.color-D8C9B6 button {
+    background-color: #D8C9B6;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 75px;
+    height: 45px;
+    transition: transform 0.3s;
+}
+
+.color-C0C0C0 button {
+    background-color: #C0C0C0;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 75px;
+    height: 45px;
+    transition: transform 0.3s;
+}
+
+.color-F2F3F4 button {
+    background-color: #F2F3F4;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 75px;
+    height: 45px;
+    transition: transform 0.3s;
+    border: 1px solid black;
+}
+
+.color-list button:hover {
+    transform: scale(1.07);
+    color: black;
+    cursor: pointer;
+}
+
+#text-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%
+}
+
+#column-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 33%
+}
+
+#order-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 33%
+}
+
+#order-info button {
+    color: white;
+    background-color: #0071e3;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 125px;
+    height: 45px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+#order-info button:hover {
+    transform: scale(1.07);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row img {
+    object-fit: contain;
+    width: 350px;
+    height: 350px;
+}
+
+.small {
+    text-align: center;
+    font-size: 15px;
+    height: 250px;
+}
+
+.delivery-info {
+    background-color: #f5f5f7;
+    border-radius: 12px;
+    font-weight: 500;
+    color: #333;
+    text-align: start;
+    padding-left: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 20px;
+    width: 575px;
+    height: 200px;
+    transition: all 0.2s ease;
+}
+
+.delivery-info:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+#box2 button {
+    color: white;
+    background-color: #0071e3;
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 175px;
+    height: 65px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+#box2 button:hover {
+    transform: scale(1.07);
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.memory-list button {
+    transition: all 0.2s ease;
+}
+
+.memory-list .active {
+    border: 2px solid #333;
+    background-color: #f5f5f5;
+    color: #1C1C1E;
+    transform: scale(1.2);
+}
+
+.color-list button {
+    border: 1px solid #a5a5a5;
+    transition: all 0.2s ease;
+}
+
+.color-list .active {
+    border: 2px solid black;
+    transform: scale(1.2);
+}

@@ -1,0 +1,17 @@
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none
+}
+
+html,
+body {
+  height: 100%;
+  margin: 1px 1px 0px 1px;
+
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

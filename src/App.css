@@ -1,0 +1,11 @@
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #1A1A1A;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover::after,
+.swiper-button-prev:hover::after {
+  color: #0071E3;
+}

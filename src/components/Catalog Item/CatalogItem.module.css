@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    border: 1px solid #a5a5a5;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-size: 23px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    cursor:grab;
+}
+
+.container img {
+    width: 270px;
+    height: 360px;
+    object-fit: contain;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row button {
+    width: 125px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: white;
+    font-size: large;
+    color:black;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+}
+
+.row button:hover {
+    background-color: #0071e3;
+    color:white;
+       cursor: pointer;
+}

@@ -1,0 +1,134 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.header_row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.text_block {
+        width:50%;
+}
+.text_block p {
+    display: flex;
+    flex-direction: column;
+    font-size: 52px;
+
+}
+.text_block li {
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: 23px;
+}
+.image_block {
+    width:50%;
+}
+
+.image_block img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 12px;
+    float: right;
+}
+
+.benefits_row {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.block1 {
+    width: 17%;
+    height: 230px;
+    border-radius: 12px;
+    border: 1px solid #a5a5a5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.block2 {
+    width: 17%;
+    height: 230px;
+    border-radius: 12px;
+    border: 1px solid #a5a5a5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.block3 {
+    width: 17%;
+    height: 230px;
+    border-radius: 12px;
+    border: 1px solid #a5a5a5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.block4 {
+    width: 17%;
+    height: 230px;
+    border-radius: 12px;
+    border: 1px solid #a5a5a5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+.block1:hover{
+    transform: scale(1.03);
+}
+.block2:hover{
+    transform: scale(1.03);
+}
+.block3:hover{
+    transform: scale(1.03);
+}
+.block4:hover{
+    transform: scale(1.03);
+}
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    text-align: center;
+}
