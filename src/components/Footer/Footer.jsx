@@ -12,7 +12,7 @@ const Footer = () => {
         <p><strong>Sigma Shop</strong> – Oryginalne iPhone’y w najlepszych cenach.</p>
       </div>
       <div className="products-block">
-        <p style={{ textDecoration: "underline" }}><strong>Products</strong></p>
+        <p style={{ textDecoration: "underline" }}><strong>Produkty</strong></p>
         <p><Link to="/products" style={{color:"#0071e3", fontWeight:'500'}}>Zobacz wszystkie oferty</Link></p>
         <p style={{textAlign:'center'}}>Znajdziesz <Link to="/products" style={{color:"#0071e3", fontWeight:'500'}}>tu</Link> pełną ofertę produktów,<br/> nowości, promocje i aktualne informacje.</p>
       </div>

@@ -52,38 +52,66 @@ import iPhone16promaxW2 from './assets/iPhone 16 Pro Max/iphone-16-pro-max-white
 import iPhone16promaxW3 from './assets/iPhone 16 Pro Max/iphone-16-pro-max-whitetitanium3.jpg'
 import iPhone16promaxCable from './assets/iPhone 16 Pro Max/iphone-16-pro-braided-cable.jpg'
 
-import iPhone16eGallery1 from './assets/iPhone 16e/Gallery/iPhone-16e_gallery1.jpg'
-import iPhone16eGallery2 from './assets/iPhone 16e/Gallery/iPhone-16e_gallery2.jpg'
-import iPhone16eGallery3 from './assets/iPhone 16e/Gallery/iPhone-16e_gallery3.jpg'
-import iPhone16eGallery4 from './assets/iPhone 16e/Gallery/iPhone-16e_gallery4.jpg'
-import iPhone16eGallery5 from './assets/iPhone 16e/Gallery/iPhone-16e_gallery5.jpg'
+import iPhone16eBGallery1 from './assets/iPhone 16e/Gallery/Black/iPhone-16e_gallery1.jpg'
+import iPhone16eBGallery2 from './assets/iPhone 16e/Gallery/Black/iPhone-16e_gallery2.jpg'
+import iPhone16eBGallery3 from './assets/iPhone 16e/Gallery/Black/iPhone-16e_gallery3.jpg'
+import iPhone16eBGallery4 from './assets/iPhone 16e/Gallery/Black/iPhone-16e_gallery4.jpg'
+import iPhone16eBGallery5 from './assets/iPhone 16e/Gallery/Black/iPhone-16e_gallery5.jpg'
+import iPhone16eWGallery1 from './assets/iPhone 16e/Gallery/White/iPhone-16e-white-gallery1.jpg'
+import iPhone16eWGallery2 from './assets/iPhone 16e/Gallery/White/iPhone-16e-white-gallery2.jpg'
+import iPhone16eWGallery3 from './assets/iPhone 16e/Gallery/White/iPhone-16e-white-gallery3.jpg'
+import iPhone16eWGallery4 from './assets/iPhone 16e/Gallery/White/iPhone-16e-white-gallery4.jpg'
 
-import iPhone16Gallery1 from './assets/iPhone 16/Gallery/iPhone_16gallery1.jpg'
-import iPhone16Gallery2 from './assets/iPhone 16/Gallery/iPhone_16gallery2.jpg'
-import iPhone16Gallery3 from './assets/iPhone 16/Gallery/iPhone_16gallery3.jpg'
-import iPhone16Gallery4 from './assets/iPhone 16/Gallery/iPhone_16gallery4.jpg'
-import iPhone16Gallery5 from './assets/iPhone 16/Gallery/iPhone_16gallery5.jpg'
-import iPhone16Gallery6 from './assets/iPhone 16/Gallery/iPhone_16gallery6.jpg'
+import iPhone16BGallery1 from './assets/iPhone 16/Gallery/Black/iPhone_16gallery1.jpg'
+import iPhone16BGallery2 from './assets/iPhone 16/Gallery/Black/iPhone_16gallery2.jpg'
+import iPhone16BGallery3 from './assets/iPhone 16/Gallery/Black/iPhone_16gallery3.jpg'
+import iPhone16BGallery4 from './assets/iPhone 16/Gallery/Black/iPhone_16gallery4.jpg'
+import iPhone16BGallery5 from './assets/iPhone 16/Gallery/Black/iPhone_16gallery5.jpg'
+import iPhone16ALLCOLORSGallery6 from './assets/iPhone 16/Gallery/iPhone_16gallery6.jpg'
+import iPhone16PGallery1 from './assets/iPhone 16/Gallery/Pink/iPhone-16-pink-gallery-1.jpg'
+import iPhone16PGallery2 from './assets/iPhone 16/Gallery/Pink/iPhone-16-pink-gallery-2.jpg'
+import iPhone16PGallery3 from './assets/iPhone 16/Gallery/Pink/iPhone-16-pink-gallery-3.jpg'
+import iPhone16PGallery4 from './assets/iPhone 16/Gallery/Pink/iPhone-16-pink-gallery-4.jpg'
+import iPhone16PGallery5 from './assets/iPhone 16/Gallery/Pink/iPhone-16-pink-gallery-5.jpg'
+import iPhone16WGallery1 from './assets/iPhone 16/Gallery/White/iPhone-16-white-gallery-1.jpg'
+import iPhone16WGallery2 from './assets/iPhone 16/Gallery/White/iPhone-16-white-gallery-2.jpg'
+import iPhone16WGallery3 from './assets/iPhone 16/Gallery/White/iPhone-16-white-gallery-3.jpg'
+import iPhone16WGallery4 from './assets/iPhone 16/Gallery/White/iPhone-16-white-gallery-4.jpg'
+import iPhone16WGallery5 from './assets/iPhone 16/Gallery/White/iPhone-16-white-gallery-5.jpg'
+import iPhone16UGallery1 from './assets/iPhone 16/Gallery/Ultramarine/iPhone-16-ultramarine-gallery-1.jpg'
+import iPhone16UGallery2 from './assets/iPhone 16/Gallery/Ultramarine/iPhone-16-ultramarine-gallery-2.jpg'
+import iPhone16UGallery3 from './assets/iPhone 16/Gallery/Ultramarine/iPhone-16-ultramarine-gallery-3.jpg'
+import iPhone16UGallery4 from './assets/iPhone 16/Gallery/Ultramarine/iPhone-16-ultramarine-gallery-4.jpg'
+import iPhone16UGallery5 from './assets/iPhone 16/Gallery/Ultramarine/iPhone-16-ultramarine-gallery-5.jpg'
+import iPhone16TGallery1 from './assets/iPhone 16/Gallery/Teal/iPhone-16-teal-gallery-1.jpg'
+import iPhone16TGallery2 from './assets/iPhone 16/Gallery/Teal/iPhone-16-teal-gallery-2.jpg'
+import iPhone16TGallery3 from './assets/iPhone 16/Gallery/Teal/iPhone-16-teal-gallery-3.jpg'
+import iPhone16TGallery4 from './assets/iPhone 16/Gallery/Teal/iPhone-16-teal-gallery-4.jpg'
+import iPhone16TGallery5 from './assets/iPhone 16/Gallery/Teal/iPhone-16-teal-gallery-5.jpg' // all of gallery items work for iphone 16 plus also, cuz they are the same, the screen is the only difference, u cant see it much
 
-import iPhone16plusGallery1 from './assets/iPhone 16 Plus/Gallery/iPhone_16gallery1.jpg'
-import iPhone16plusGallery2 from './assets/iPhone 16 Plus/Gallery/iPhone_16gallery2.jpg'
-import iPhone16plusGallery3 from './assets/iPhone 16 Plus/Gallery/iPhone_16gallery3.jpg'
-import iPhone16plusGallery4 from './assets/iPhone 16 Plus/Gallery/iPhone_16gallery4.jpg'
-import iPhone16plusGallery5 from './assets/iPhone 16 Plus/Gallery/iPhone_16gallery5.jpg'
-import iPhone16plusGallery6 from './assets/iPhone 16 Plus/Gallery/iPhone_16gallery6.jpg'
+import iPhone16ProBGallery1 from './assets/iPhone 16 Pro/Gallery/Black/iPhone_16_pro_gallery1.jpg'
+import iPhone16ProBGallery2 from './assets/iPhone 16 Pro/Gallery/Black/iPhone_16_pro_gallery2.jpg'
+import iPhone16ProBGallery3 from './assets/iPhone 16 Pro/Gallery/Black/iPhone_16_pro_gallery3.jpg'
+import iPhone16ProBGallery4 from './assets/iPhone 16 Pro/Gallery/Black/iPhone_16_pro_gallery4.jpg'
+import iPhone16ProBGallery5 from './assets/iPhone 16 Pro/Gallery/Black/iPhone-16-Pro-Black-Titanium-gallery-5.jpg'
+import iPhone16ProWGallery1 from './assets/iPhone 16 Pro/Gallery/White/iPhone-16-Pro-White-Titanium-gallery-1.jpg'
+import iPhone16ProWGallery2 from './assets/iPhone 16 Pro/Gallery/White/iPhone-16-Pro-White-Titanium-gallery-2.jpg'
+import iPhone16ProWGallery3 from './assets/iPhone 16 Pro/Gallery/White/iPhone-16-Pro-White-Titanium-gallery-3.jpg'
+import iPhone16ProWGallery4 from './assets/iPhone 16 Pro/Gallery/White/iPhone-16-Pro-White-Titanium-gallery-4.jpg'
+import iPhone16ProWGallery5 from './assets/iPhone 16 Pro/Gallery/White/iPhone-16-Pro-White-Titanium-gallery-5.jpg'
+import iPhone16ProDGallery1 from './assets/iPhone 16 Pro/Gallery/Desert/iPhone-16-Pro-Desert-Titanium-gallery-1.jpg'
+import iPhone16ProDGallery2 from './assets/iPhone 16 Pro/Gallery/Desert/iPhone-16-Pro-Desert-Titanium-gallery-2.jpg'
+import iPhone16ProDGallery3 from './assets/iPhone 16 Pro/Gallery/Desert/iPhone-16-Pro-Desert-Titanium-gallery-3.jpg'
+import iPhone16ProDGallery4 from './assets/iPhone 16 Pro/Gallery/Desert/iPhone-16-Pro-Desert-Titanium-gallery-4.jpg'
+import iPhone16ProDGallery5 from './assets/iPhone 16 Pro/Gallery/Desert/iPhone-16-Pro-Desert-Titanium-gallery-5.jpg'
+import iPhone16ProNGallery1 from './assets/iPhone 16 Pro/Gallery/Natural/iPhone-16-Pro-Natural-Titanium-gallery-1.jpg'
+import iPhone16ProNGallery2 from './assets/iPhone 16 Pro/Gallery/Natural/iPhone-16-Pro-Natural-Titanium-gallery-2.jpg'
+import iPhone16ProNGallery3 from './assets/iPhone 16 Pro/Gallery/Natural/iPhone-16-Pro-Natural-Titanium-gallery-3.jpg'
+import iPhone16ProNGallery4 from './assets/iPhone 16 Pro/Gallery/Natural/iPhone-16-Pro-Natural-Titanium-gallery-4.jpg'
+import iPhone16ProNGallery5 from './assets/iPhone 16 Pro/Gallery/Natural/iPhone-16-Pro-Natural-Titanium-gallery-5.jpg'
+import iPhone16ProAllColorsGallery from './assets/iPhone 16 Pro/Gallery/iPhone_16_pro_gallery5.jpg'
 
-import iPhone16proGallery1 from './assets/iPhone 16 Pro/Gallery/iPhone_16_pro_gallery1.jpg'
-import iPhone16proGallery2 from './assets/iPhone 16 Pro/Gallery/iPhone_16_pro_gallery2.jpg'
-import iPhone16proGallery3 from './assets/iPhone 16 Pro/Gallery/iPhone_16_pro_gallery3.jpg'
-import iPhone16proGallery4 from './assets/iPhone 16 Pro/Gallery/iPhone_16_pro_gallery4.jpg'
-import iPhone16proGallery5 from './assets/iPhone 16 Pro/Gallery/iPhone_16_pro_gallery5.jpg'
 
-import iPhone16promaxGallery1 from './assets/iPhone 16 Pro Max/Gallery/iPhone_16_pro_max_gallery1.jpg'
-import iPhone16promaxGallery2 from './assets/iPhone 16 Pro Max/Gallery/iPhone_16_pro_max_gallery2.jpg'
-import iPhone16promaxGallery3 from './assets/iPhone 16 Pro Max/Gallery/iPhone_16_pro_max_gallery3.jpg'
-import iPhone16promaxGallery4 from './assets/iPhone 16 Pro Max/Gallery/iPhone_16_pro_max_gallery4.jpg'
-import iPhone16promaxGallery5 from './assets/iPhone 16 Pro Max/Gallery/iPhone_16_pro_max_gallery5.jpg'
-import iPhone16promaxGallery6 from './assets/iPhone 16 Pro Max/Gallery/iPhone_16_pro_max_gallery6.jpg'
 
 export const iphones = [
     {
@@ -105,13 +133,22 @@ export const iphones = [
             "Czarny",
             "Bialy"
         ],
-        phonegallery: [
-            iPhone16eGallery1,
-            iPhone16eGallery2,
-            iPhone16eGallery3,
-            iPhone16eGallery4,
-            iPhone16eGallery5,
-        ],
+        phonegallery: {
+            "Czarny": [
+                iPhone16eBGallery1,
+                iPhone16eBGallery2,
+                iPhone16eBGallery3,
+                iPhone16eBGallery4,
+                iPhone16eBGallery5, //All colors image
+            ],
+            "Bialy": [
+                iPhone16eWGallery1,
+                iPhone16eWGallery2,
+                iPhone16eWGallery3,
+                iPhone16eWGallery4,
+                iPhone16eBGallery5, //All colors image
+            ]
+        },
         images: {
             'Czarny': [
                 iPhone16eB,
@@ -149,14 +186,48 @@ export const iphones = [
             "Czarny",
             "Rozowy"
         ],
-        phonegallery: [
-            iPhone16Gallery1,
-            iPhone16Gallery2,
-            iPhone16Gallery3,
-            iPhone16Gallery4,
-            iPhone16Gallery5,
-            iPhone16Gallery6,
-        ],
+        phonegallery: {
+            "Czarny": [
+                iPhone16BGallery1,
+                iPhone16BGallery2,
+                iPhone16BGallery3,
+                iPhone16BGallery4,
+                iPhone16BGallery5, 
+                iPhone16ALLCOLORSGallery6
+            ],
+            "Bialy": [
+                iPhone16WGallery1,
+                iPhone16WGallery2,
+                iPhone16WGallery3,
+                iPhone16WGallery4,
+                iPhone16WGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+            Ultramaryna: [
+                iPhone16UGallery1,
+                iPhone16UGallery2,
+                iPhone16UGallery3,
+                iPhone16UGallery4,
+                iPhone16UGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+            'Berylowa Zielen': [
+                iPhone16TGallery1,
+                iPhone16TGallery2,
+                iPhone16TGallery3,
+                iPhone16TGallery4,
+                iPhone16TGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+            Rozowy: [
+                iPhone16PGallery1,
+                iPhone16PGallery2,
+                iPhone16PGallery3,
+                iPhone16PGallery4,
+                iPhone16PGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+        },
         images: {
             Czarny: [
                 iPhone16B1,
@@ -207,20 +278,54 @@ export const iphones = [
             },
         },
         colors: [
-            "Ultramaryna",
             "Berylowa Zielen",
+            "Ultramaryna",
             "Bialy",
             "Czarny",
             "Rozowy"
         ],
-        phonegallery: [
-            iPhone16plusGallery1,
-            iPhone16plusGallery2,
-            iPhone16plusGallery3,
-            iPhone16plusGallery4,
-            iPhone16plusGallery5,
-            iPhone16plusGallery6,
-        ],
+        phonegallery: {
+            "Czarny": [
+                iPhone16BGallery1,
+                iPhone16BGallery2,
+                iPhone16BGallery3,
+                iPhone16BGallery4,
+                iPhone16BGallery5, 
+                iPhone16ALLCOLORSGallery6
+            ],
+            "Bialy": [
+                iPhone16WGallery1,
+                iPhone16WGallery2,
+                iPhone16WGallery3,
+                iPhone16WGallery4,
+                iPhone16WGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+            Ultramaryna: [
+                iPhone16UGallery1,
+                iPhone16UGallery2,
+                iPhone16UGallery3,
+                iPhone16UGallery4,
+                iPhone16UGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+            'Berylowa Zielen': [
+                iPhone16TGallery1,
+                iPhone16TGallery2,
+                iPhone16TGallery3,
+                iPhone16TGallery4,
+                iPhone16TGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+            Rozowy: [
+                iPhone16PGallery1,
+                iPhone16PGallery2,
+                iPhone16PGallery3,
+                iPhone16PGallery4,
+                iPhone16PGallery5,
+                iPhone16ALLCOLORSGallery6
+            ],
+        },
         images: {
             Czarny: [
                 iPhone16B1,
@@ -274,18 +379,45 @@ export const iphones = [
             },
         },
         colors: [
-            "Tytan naturalny",
             "Tytan biały",
+            "Tytan naturalny",
             "Tytan czarny",
             "Tytan pustynny"
         ],
-        phonegallery: [
-            iPhone16proGallery1,
-            iPhone16proGallery2,
-            iPhone16proGallery3,
-            iPhone16proGallery4,
-            iPhone16proGallery5,
-        ],
+        phonegallery: {
+            "Tytan czarny": [
+                iPhone16ProBGallery1,
+                iPhone16ProBGallery2,
+                iPhone16ProBGallery3,
+                iPhone16ProBGallery4,
+                iPhone16ProBGallery5, 
+                iPhone16ProAllColorsGallery
+            ],
+            "Tytan biały": [
+                iPhone16ProWGallery1,
+                iPhone16ProWGallery2,
+                iPhone16ProWGallery3,
+                iPhone16ProWGallery4,
+                iPhone16ProWGallery5,
+                iPhone16ProAllColorsGallery
+            ],
+            "Tytan naturalny": [
+                iPhone16ProNGallery1,
+                iPhone16ProNGallery2,
+                iPhone16ProNGallery3,
+                iPhone16ProNGallery4,
+                iPhone16ProNGallery5,
+                iPhone16ProAllColorsGallery
+            ],
+            "Tytan pustynny": [
+                iPhone16ProDGallery1,
+                iPhone16ProDGallery2,
+                iPhone16ProDGallery3,
+                iPhone16ProDGallery4,
+                iPhone16ProDGallery5,
+                iPhone16ProAllColorsGallery
+            ]
+        },
         images: {
             "Tytan naturalny": [
                 iPhone16proN1,
@@ -334,14 +466,40 @@ export const iphones = [
             "Tytan czarny",
             "Tytan pustynny"
         ],
-        phonegallery: [
-            iPhone16promaxGallery1,
-            iPhone16promaxGallery2,
-            iPhone16promaxGallery3,
-            iPhone16promaxGallery4,
-            iPhone16promaxGallery5,
-            iPhone16promaxGallery6,
-        ],
+        phonegallery: {
+            "Tytan czarny": [
+                iPhone16ProBGallery1,
+                iPhone16ProBGallery2,
+                iPhone16ProBGallery3,
+                iPhone16ProBGallery4,
+                iPhone16ProBGallery5, 
+                iPhone16ProAllColorsGallery
+            ],
+            "Tytan biały": [
+                iPhone16ProWGallery1,
+                iPhone16ProWGallery2,
+                iPhone16ProWGallery3,
+                iPhone16ProWGallery4,
+                iPhone16ProWGallery5,
+                iPhone16ProAllColorsGallery
+            ],
+            "Tytan naturalny": [
+                iPhone16ProNGallery1,
+                iPhone16ProNGallery2,
+                iPhone16ProNGallery3,
+                iPhone16ProNGallery4,
+                iPhone16ProNGallery5,
+                iPhone16ProAllColorsGallery
+            ],
+            "Tytan pustynny": [
+                iPhone16ProDGallery1,
+                iPhone16ProDGallery2,
+                iPhone16ProDGallery3,
+                iPhone16ProDGallery4,
+                iPhone16ProDGallery5,
+                iPhone16ProAllColorsGallery
+            ]
+        },
         images: {
             "Tytan naturalny": [
                 iPhone16promaxN1,

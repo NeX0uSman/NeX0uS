@@ -1,16 +1,16 @@
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import cl from './CatalogItem.module.css'
 import { useNavigate } from 'react-router-dom';
-import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css/bundle'
-import 'swiper/css/navigation'
-import 'swiper/css/pagination'
+import { usePhoneContext } from '../../context/Context';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { PhoneProvider, usePhoneContext } from '../../context/Context';
+import { Navigation, Pagination, Scrollbar, Zoom } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/zoom';
 
 const CatalogItem = ({ source, el_key }) => {
     const navigate = useNavigate()
-
     const colorMap = {
         Czarny: '#1a1a1a',              // Матово-чёрный
         Bialy: '#f0f0f0',               // Тёплый матовый белый
@@ -21,8 +21,10 @@ const CatalogItem = ({ source, el_key }) => {
         'Tytan biały': '#e5e5e5',       // Матовый белый
         'Tytan czarny': '#2a2a2c',      // Матово-чёрно-серый
         'Tytan pustynny': '#b8aa88'     // Песочный матовый
-      };
+    };
 
+    const [color, setColor] = useState(source.colors[0])
+    const images = source.phonegallery[color]
     return (
         <div key={el_key} className={cl.container} >
             <div>
@@ -30,15 +32,16 @@ const CatalogItem = ({ source, el_key }) => {
                     <Swiper
                         direction="horizontal"
                         loop={true}
-                        navigation={true}
-                        pagination={{ clickable: true }}
-                        modules={[Navigation, Pagination]}
+                        modules={[Navigation, Pagination, Zoom, Scrollbar]}
+                        scrollbar={{ draggable: true }}
+                        zoom={{ maxRatio: 3, minRatio: 1 }}
                         className="mySwiper"
-                        style={{ height: '100%' }}
                     >
-                        {source.phonegallery.map((el, index) => (
-                            <SwiperSlide key={index}>
-                                <img src={el} alt={`Photo ${index}`} />
+                        {images.map((img, i) => (
+                            <SwiperSlide key={i}>
+                                <div className="swiper-zoom-container">
+                                    <img src={img} alt={`Slide ${i}`} />
+                                </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
@@ -49,7 +52,7 @@ const CatalogItem = ({ source, el_key }) => {
                     {source.name}<br />
                     <div className={cl.colors_row} style={{ display: 'flex', gap: '8px', margin: '8px 0' }}>
                         {source.colors.map((el, index) =>
-                            <button key={index} 
+                            <button key={index}
                                 style={{
                                     backgroundColor: colorMap[el] || '#ccc',
                                     width: '30px',
@@ -62,8 +65,8 @@ const CatalogItem = ({ source, el_key }) => {
                             </button>)}<br />
                     </div>
                     <div className={cl.row}>
-                        {source.price} zl
-                            <button onClick={() => { navigate(`/product/${source.id}`) }}>Do koszyka</button>
+                        Od {source.price} zl
+                        <button onClick={() => { navigate(`/product/${source.id}`) }}>Podglad</button>
                     </div>
                 </div>
             </div>

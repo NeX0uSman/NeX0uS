@@ -14,10 +14,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PhoneProvider><CartProvider><Layout /></CartProvider></PhoneProvider>}>
+        <Route path="/" element={<CartProvider><Layout /></CartProvider>}>
           <Route index element={<Main />} />
           <Route path="products" element={<Catalog />} />
-          <Route path="product/:id" element={<ProductPage/>} />
+          <Route path="product/:id" element={<PhoneProvider><ProductPage/></PhoneProvider>} />
           <Route path="cart" element={<Cart/>}/>
         </Route>
       </Routes>

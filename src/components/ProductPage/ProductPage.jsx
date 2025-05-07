@@ -4,13 +4,21 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { iphones } from '../../catalog.js'
 import AI from '../../assets/apple-intelligence.jpg'
 import { useParams } from 'react-router-dom'
-import { PhoneProvider } from '../../context/Context.jsx'
+import { PhoneProvider, usePhoneContext } from '../../context/Context.jsx'
 import { useCartContext } from '../CartProvider/CartProvider.jsx'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination, Zoom } from 'swiper/modules'
+import 'swiper/css';
+import 'swiper/css/bundle'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import 'swiper/css/zoom';
+import cl from './ProductPage.module.css'
 
 const ProductPage = () => {
 
   const navigate = useNavigate()
-
+  const { product, id, memory, setMemory, color, setColor, safeColor, safeMemory } = usePhoneContext()
   const { cart, addToCart, cartAmount } = useCartContext()
 
   const colorMap = {
@@ -24,18 +32,6 @@ const ProductPage = () => {
     'Tytan czarny': '#333',
     'Tytan pustynny': '#C2B280'
   };
-  const { id } = useParams();
-  const product = iphones.find((el) => el.id == id)
-  if (!product) return <p>Product not found</p>;
-  const [memory, setMemory] = useState(Object.keys(product.storages)[0])
-  const [color, setColor] = useState(product.colors[0])
-  const safeColor = product.colors.includes(color)
-    ? color
-    : product.colors[0]
-  const safeMemory = Object.keys(product.storages).includes(memory)
-    ? memory
-    : Object.keys(product.storages)[0]
-
 
   /*const redirect = () => {
     navigate('/')
@@ -67,7 +63,7 @@ const ProductPage = () => {
                     </div>
                   </div>
                   <div className='column-top-button'>
-                    <button onClick={() => addToCart(product, safeMemory, safeColor )}>Dodaj Do Koszyka</button>
+                    <button onClick={() => addToCart(product, safeMemory, safeColor)}>Dodaj Do Koszyka</button>
                   </div>
                 </div>
 
@@ -75,8 +71,30 @@ const ProductPage = () => {
             </div>
             <div className="main-text">
               <div className="left-part">
-                <div>
-                  <img src={product.images[safeColor][0]} alt="iphone 16 pro image" className="phone" />
+                <div className={cl.mySwiper}>
+                  <Swiper
+                    direction="horizontal"
+                    loop={true}
+                    navigation={true}
+                    pagination={{ clickable: true }}
+                    zoom={{ maxRatio: 3, minRatio: 1 }}
+                    modules={[Navigation, Pagination, Zoom]}
+                    className="mySwiper"
+                    style={{ width: '1000px', height: "700px" }}
+                  >
+                    {product.phonegallery[safeColor].map((el, index) => (
+                      <SwiperSlide key={index}>
+                        <div className='swiper-zoom-container'>
+                          <img style={{
+                            maxWidth: '100%',
+                            maxHeight: '100%',
+                            objectFit: "contain"
+                          }} src={el} alt={`Photo ${index}`} />
+                        </div>
+
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
                 </div>
               </div>
               <div className="right-part">

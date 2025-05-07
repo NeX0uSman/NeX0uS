@@ -10,11 +10,17 @@ export const PhoneProvider = ({ children }) => {
 
     const { id } = useParams();
     const product = iphones.find((el) => el.id == id)
+    const [memory, setMemory] = useState(Object.keys(product.storages)[0])
+    const [color, setColor] = useState(product.colors[0])
+    const safeColor = product.colors.includes(color)
+        ? color
+        : product.colors[0]
+    const safeMemory = Object.keys(product.storages).includes(memory)
+        ? memory
+        : Object.keys(product.storages)[0]
 
-    /*const phoneAddingToCart = iphones.find()*/
-    const [cart, setCart] = useState([])
     const values = {
-        cart, setCart, product, id
+        product, id, memory, setMemory, color, setColor, safeColor, safeMemory
     }
     return <PhoneContext.Provider value={values}>
         {children}
