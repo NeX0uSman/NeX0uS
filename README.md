@@ -1,6 +1,6 @@
 Hi,
 This is my first uploaded project. It was built using JavaScript, React, HTML, CSS, and helpful libraries such as Swiper, among others.
-
+The biggest part of the effort was aimed at DESIGN AND OVERALL LOOK
 Features:
 Display of product images and phone models
 
