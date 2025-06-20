@@ -1,13 +1,17 @@
-# React + Vite
+Hi,
+This is my first uploaded project. It was built using JavaScript, React, HTML, CSS, and helpful libraries such as Swiper, among others.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+Display of product images and phone models
 
-Currently, two official plugins are available:
+Dynamic UI updates based on user input
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Shopping cart functionality:
 
-## Expanding the ESLint configuration
+Add items
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View selected items
 
+Remove items from the cart
+
+The project demonstrates my growing skills in frontend development and working with component-based architecture in React.
